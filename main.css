@@ -20,5 +20,25 @@
     font-size: 50px;
     background-color: darkslategray;
     width:100%;
-    
+}
+
+/* content section */
+#content{
+    display:flex;
+    flex-direction: column;
+    background-color: darkgray;
+    width:100%;
+    align-items: center;
+}
+
+.image{
+    width:700px;
+    height:300px;
+}
+/* footer section */
+#footer{
+    display:flex;
+    justify-content: center;
+    background-color: darkslategray;
+    width:100%;
 }
