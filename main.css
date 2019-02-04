@@ -1,0 +1,24 @@
+#app{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+/* header section */
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+#title{
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: darkslategray;
+    width:100%;
+    
+}
