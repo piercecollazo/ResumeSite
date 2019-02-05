@@ -6,7 +6,6 @@
     <title>Alex's Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
 <body>
     <!-- The main parent container -->
@@ -30,19 +29,25 @@
             <!-- image slideshow -->
             <div id="slideshow">
 
-                <div class="slide">
-                    <img class="image" src="./assets/images/howi1.jpg">
-                    <p class="summary">Placeholder text goes here</p>
+                <div class="slide fade">
+                    <img class="image" id="img1" src="./assets/images/howi1.jpg">
+                    <p class="summary">text 1</p>
                 </div>
 
-                <div class="slide">
-                    <img class="image" src="./assets/images/howi2.jpg">
-                    <p class="summary">Placeholder text goes here</p>
+                <div class="slide fade">
+                    <img class="image" id="img2" src="./assets/images/howi2.jpg">
+                    <p class="summary">text 2</p>
                 </div>
 
-                <div class="slide">
-                    <img class="image" src="./assets/images/howi3.jpg">
-                    <p class="summary">Placeholder text goes here</p>
+                <div class="slide fade">
+                    <img class="image" id="img3" src="./assets/images/howi3.jpg">
+                    <p class="summary">text 3</p>
+                </div>
+
+                <div class="navdots">
+                    <button class="dot" onclick="img1"></button>
+                    <button class="dot" onclick="img2"></button>
+                    <button class="dot" onclick="img3"></button>
                 </div>
             </div>
         </div>
@@ -52,6 +57,6 @@
             <p>Alex Collazo 2019</p>
         </div>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
