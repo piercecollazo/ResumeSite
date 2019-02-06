@@ -12,7 +12,7 @@
     <div id="app">
 
         <div id="title">
-            <h1>Placeholder Title</h1>
+            <h1>Alex codes</h1>
         </div>
 
         <!-- Header parent-child -->
@@ -31,23 +31,30 @@
 
                 <div class="slide fade">
                     <img class="image" id="img1" src="./assets/images/howi1.jpg">
-                    <p class="summary">text 1</p>
+                    <h1 class="imageTitle">Hypothetical Project</h1>
+                    <p class="summary">This is really just a filler summary for a hypothetical project to layer over an image.</p>
                 </div>
 
                 <div class="slide fade">
                     <img class="image" id="img2" src="./assets/images/howi2.jpg">
-                    <p class="summary">text 2</p>
+                    <h1 class="imageTitle">Theoretical Project</h1>
+                    <p class="summary">This is really just a filler summary for a theoretical project to layer over an image.</p>
                 </div>
 
                 <div class="slide fade">
                     <img class="image" id="img3" src="./assets/images/howi3.jpg">
-                    <p class="summary">text 3</p>
+                    <h1 class="imageTitle">Ruminated Project</h1>
+                    <p class="summary">This is really just a filler summary for a ruminated project to layer over an image.</p>
                 </div>
+                <!-- Next and previous buttons for image selection -->
+                <a id="prev" onclick="plusSlide(-1)">&#10094</a>
+                <a id="next" onclick="plusSlide(1)">&#10095</a>
 
+                <!-- dots beneath slideshow to denote image selected -->
                 <div class="navdots">
-                    <button class="dot" onclick="img1"></button>
-                    <button class="dot" onclick="img2"></button>
-                    <button class="dot" onclick="img3"></button>
+                    <button class="dot" onclick="currentSlide(1)"></button>
+                    <button class="dot" onclick="currentSlide(2)"></button>
+                    <button class="dot" onclick="currentSlide(3)"></button>
                 </div>
             </div>
         </div>
